@@ -43,4 +43,5 @@ console.log(calculateGrade(90));
 
 for(let i =0; i<scores.length; i++) {
     let grade = calculateGrade (score[i]);
+    console.log(`Score: ${scores[i]}, Grade: ${grade}`);
 }
